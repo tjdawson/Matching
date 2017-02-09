@@ -6,8 +6,9 @@
 var shuffleSequence = seq("intro1", //participant info
     "intro2", // instructions
     "video_test", // test ability to play our videos
-    "video_1.html", // start presenting our videos
-"sr", "end"
+    "video_1", // start presenting our videos
+    "video_2","video_3","video_4","video_5","video_6","video_7","video_8","video_9","video_10","video_11","video_12","video_13","video_14","video_15","video_16",
+    "sr", "end"
 );
 
 var defaults = [
