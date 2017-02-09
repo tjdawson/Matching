@@ -78,67 +78,67 @@ var items = [
 
     ["video1", "Form", {
         html: {include: "video1.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video2", "Form", {
         html: {include: "video2.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video3", "Form", {
         html: {include: "video3.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video4", "Form", {
         html: {include: "video4.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video5", "Form", {
         html: {include: "video5.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video6", "Form", {
         html: {include: "video6.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video7", "Form", {
         html: {include: "video7.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video8", "Form", {
         html: {include: "video8.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video9", "Form", {
         html: {include: "video9.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video10", "Form", {
         html: {include: "video10.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video11", "Form", {
         html: {include: "video11.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video12", "Form", {
         html: {include: "video12.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video13", "Form", {
         html: {include: "video13.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video14", "Form", {
         html: {include: "video14.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video15", "Form", {
         html: {include: "video15.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     ["video16", "Form", {
         html: {include: "video16.html"},
-        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]/).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
+        validators: {description: function (s) {if (s.match(/[A-Za-z].*?[.!?]|\b$|[ ]$/g).length == 1) return true; else return "Please enter only a single sentence. Please be sure to punctuate your sentence."; } } }],
 
     //
 
