@@ -145,7 +145,8 @@ var items = [
 ["end", "Form", {
         html: {include: "end.html"},
         hideProgressBar: true,
-        countsForProgressBar: false
+        countsForProgressBar: false,
+        continueMessage: null
     
     }]
 ];
