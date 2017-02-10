@@ -6,8 +6,9 @@
 var shuffleSequence = seq("intro1", //participant info
     "intro2", // instructions
     "video_test", // test ability to play our videos
+    rshuffle(
     "video1", // start presenting our videos
-    "video2","video3","video4","video5","video6","video7","video8","video9","video10","video11","video12","video13","video14","video15","video16",
+    "video2","video3","video4","video5","video6","video7","video8","video9","video10","video11","video12","video13","video14","video15","video16"),
     "sr", "end"
 );
 
