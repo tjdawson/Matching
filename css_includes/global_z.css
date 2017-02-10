@@ -65,6 +65,7 @@ body {
     color: #44464b;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
     margin-left: 0;
     margin-top: 5em;
 }
@@ -87,6 +88,11 @@ div.bar {
     background-color: #01256e;
 }
 
+h1{
+    font: 42px 'Open Sans', sans-serif;
+    font-size: 42px;
+}
+
 input, textarea, keygen, select, button {
     text-rendering: auto;
     color: initial;
@@ -98,20 +104,24 @@ input, textarea, keygen, select, button {
     display: inline-block;
     text-align: start;
     margin: 0em 0em 0em 0em;
-    font: 16px 'Open Sans', sans-serif;
+    font: 22px 'Open Sans', sans-serif;
     font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
     font-variant-numeric: normal;
     font-weight: normal;
     font-stretch: normal;
-    font-size: 16px;
+    font-size: 22px;
     line-height: normal;
     font-family: 'Open Sans', sans-serif;
 }
 
 #intro {
     text-align: justify;
+}
+
+p {
+    font-size: 22px;
 }
 
 p.progress-text {
@@ -128,6 +138,8 @@ p.practice-box {
     font-size: small;
     text-align: center;
 }
+
+
 span.retry {
     color: #01256e;
     font-weight: bold;
