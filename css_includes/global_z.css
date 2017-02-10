@@ -141,6 +141,14 @@ span.retry:visited {
     color: #01256e;
 }
 
+textarea {
+white-space: normal;
+text-align: justify;
+-moz-text-align-last: center; /* Firefox 12+ */
+text-align-last: center;
+    resize: none;
+}
+
 #watermark {
  position:fixed;
  bottom:5px;

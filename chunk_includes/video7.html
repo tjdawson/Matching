@@ -14,18 +14,33 @@
 </style>
 
 <div>
-  <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/Q3QzxkpxsUE" frameborder="0" allowfullscreen></iframe>-->
-  <video src='http://www.sas.upenn.edu/~tjdawson/Experiments/Matching/videos/shake_flex.mp4' controls autoplay></video>
+  <video id ="thevideo" src='http://www.sas.upenn.edu/~tjdawson/Experiments/Matching/videos/shake_flex.mp4' controls></video>
 </div>
-<br>
+
+<div>
+    <p><i>Reminder: you may replay the video as many times as you'd like.</i></p>
+</div>
+
 <div style="width: 40em;">
 
 <table cellpadding="10" cellspacing="4">
-<tr>
-  <td>
-      <input name="description" type="text" size="75" placeholder="Type your one-sentence description here."/></td>
-</tr>
+    <tr>
+        <td>
+            <div id="textEntry" style="visibility: hidden;">
+              <textarea name="description" rows="4" cols="85" placeholder="Type your one-sentence description here."/></textarea>
+            </div>
+        </td>
+    </tr>
 
 </table>
 
 </div>
+
+<script type="text/javascript">
+  var video = document.getElementById('thevideo');
+   video.addEventListener("ended", function() {
+   document.getElementById("textEntry").style.visibility = "visible";
+   video.currentTime = 0;
+});
+video.play();
+</script>
