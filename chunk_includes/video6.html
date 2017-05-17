@@ -14,7 +14,7 @@
 </style>
 
 <div>
-  <video id ="thevideo" src='http://www.sas.upenn.edu/~tjdawson/Experiments/Matching/videos/spin.mp4' controls></video>
+  <video id ="thevideo" src='http://www.sas.upenn.edu/~tjdawson/Experiments/UtteranceEvents/turn.mp4' controls></video>
 </div>
 
 <div>
@@ -27,7 +27,12 @@
     <tr>
         <td>
             <div id="textEntry" style="visibility: hidden;">
-              <textarea name="description" rows="4" cols="75" placeholder="Type your one-sentence description here."/></textarea>
+            <p>How many actions did the actress in the video perform?</p>
+			<input type="radio" name="num_actions" value="1"> 1 <br>
+			<input type="radio" name="num_actions" value="2"> 2 <br>
+			<input type="radio" name="num_actions" value="3"> 3 <br>
+			<input type="radio" name="num_actions" value="4"> 4 <br>
+			<input type="radio" name="num_actions" value="5"> More than 4 <br>
             </div>
         </td>
     </tr>
